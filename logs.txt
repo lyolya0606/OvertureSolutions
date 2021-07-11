@@ -1,0 +1,7 @@
+2021-07-11
+Active window: logging – main.py 23:01:02
+23:01:02 k 
+23:01:02 j 
+23:01:07 Key.backspace 
+23:01:10 Key.backspace 
+23:01:11 Key.esc 

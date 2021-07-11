@@ -1,0 +1,11 @@
+Key.esc
+Key.backspace
+,
+m
+n
+b
+v
+j
+f
+h
+s
