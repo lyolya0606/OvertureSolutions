@@ -5,7 +5,7 @@ from ctypes import windll
 
 from pynput.keyboard import Key, Listener
 from datetime import datetime
-from dataclasses import dataclass
+# from dataclasses import dataclass
 
 
 class Processor:
@@ -98,32 +98,32 @@ class Screenshots:
 # структуры данных, почтитай
 
 
-@dataclass
-class NewDataStrucure:
-    def __init__(self):
-        self.par = ""
-        self.desc = None
-
-    def __str__(self):
-        """
-        Строчное представление объекта (как бует представлен, если его попросить в виде str)
-        :return:
-        """
-
-        raise Exception.__class__.__repr__
-
-    def __repr__(self):
-        """
-        Описание объекта для систем и всего, что за пайтоном
-        :return:
-        """
-
-        self.desc = "Ya ne class"
-        pass
-
-    def give_me_all_your_data(self, some_arg):
-        """
-        Интерфейс класса (То, через что его запускать)
-        :return:
-        """
-        return "data" + some_arg
+# @dataclass
+# class NewDataStrucure:
+#     def __init__(self):
+#         self.par = ""
+#         self.desc = None
+#
+#     def __str__(self):
+#         """
+#         Строчное представление объекта (как бует представлен, если его попросить в виде str)
+#         :return:
+#         """
+#
+#         raise Exception.__class__.__repr__
+#
+#     def __repr__(self):
+#         """
+#         Описание объекта для систем и всего, что за пайтоном
+#         :return:
+#         """
+#
+#         self.desc = "Ya ne class"
+#         pass
+#
+#     def give_me_all_your_data(self, some_arg):
+#         """
+#         Интерфейс класса (То, через что его запускать)
+#         :return:
+#         """
+#         return "data" + some_arg
